@@ -58,6 +58,7 @@
 
 /* Reseteamos los margin y paddings de todas las etiquetas */
 *{
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
