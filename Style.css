@@ -112,7 +112,11 @@ body {
       background-image: url(assets/bg-mobile.svg);
       background-repeat: no-repeat;
       overflow-x: hidden;
-      background-size: cover;
+      background-size: contain;
       background-position: top center;
+   }
+
+   .header__img{
+      width: 100%;
    }
 }
