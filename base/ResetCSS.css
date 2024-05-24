@@ -24,6 +24,8 @@
   --md: 18px; /*medium*/
   --lg: 35px; /*longer*/
 
+  --Tipo-principal: "Poppins", sans-serif;
+  
 }
 
 /* Las adaptaciones al modo oscuro */
@@ -32,7 +34,6 @@
   :root {
     --color-primario   : #f0f0f0;
     --color-secundario : #181818;
-    --text-input-field: #363636;
   }
 }
 
@@ -58,7 +59,6 @@
 
 /* Reseteamos los margin y paddings de todas las etiquetas */
 *{
-  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
@@ -156,14 +156,13 @@ body {
   background-color: var(--color-secundario);
   /* opcional esto puede variar line-height: 1.4em; */
   /* opciona  hyphens: auto;*/ 
-   /* opcional */
-   -webkit-hyphens: auto;
+  /* opcional */
+   /* -webkit-hyphens: auto;
    -ms-hyphens: auto;
-       hyphens: auto;
+       hyphens: auto; */
+
   /* opcional */
   font-smooth: always;
-  /* opcional */
   -webkit-font-smoothing: antialiased;
-  /* opcional */
   -moz-osx-font-smoothing: grayscale;
 }
