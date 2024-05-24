@@ -1,7 +1,5 @@
 /* metodología BEM */
 body {
-   margin: 0;
-   padding: 0;
    background-color: var(--background-color);
 }
 
@@ -25,7 +23,7 @@ body {
 
 .main {
    margin: 12px 80px;
-   height: 100vh;
+   height: 80vh;
    display: grid;
    align-content: space-between;
 }
@@ -40,6 +38,7 @@ body {
 
 .section__div--img-content {
    width: 60%;
+   
 }
 
 .section__div--text-content {
@@ -77,8 +76,8 @@ body {
 
 .footer {
    position: absolute;
-   right: 228px;
-   top: 680px;
+   margin-left: 70%;
+   bottom: 0;
 }
 
 .footer__ul {
@@ -134,6 +133,7 @@ body {
    }
 
    .main__section {
+      display: flex;
       flex-direction: column;
    }
 
@@ -152,7 +152,13 @@ body {
    }
    .section__p--text {
       text-align: center;
-      font-size: 22px;
+      font-size: var(--sm);
+   }
+
+   .footer {
+      width: 100%;
+      position: static;
+      margin: 0 0 0 0;
    }
 
 }
