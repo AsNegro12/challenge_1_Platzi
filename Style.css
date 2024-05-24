@@ -2,7 +2,7 @@
 body {
    background-color: var(--background-color);
    background-image: url(assets/bg-desktop.svg);
-   /* overflow: hidden; */
+   overflow: hidden;
 }
 
 .header {
@@ -33,7 +33,7 @@ body {
 }
 
 .section__div--text-content {
-   width: 40%;
+   width: 45%;
    padding-left: 40px;
    margin-bottom: 190px;
    display: grid;
@@ -62,6 +62,41 @@ body {
    font-weight: 400;
    border-radius: 50px;
    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+.footer {
+   position: absolute;
+   right: 228px;
+   top: 680px;
+}
+.footer__ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 12px;
+   padding: 12px;
+}
+
+.ul__li {
+   margin: 0 10px;
+}
+
+.ul__li {
+   width: 35px;
+   height: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #fff;
+   border-radius: 50%;
+}
+
+.ul__a {
+   color: #fff;
+} 
+
+.ul__a:hover {
+   color: #000;
 }
 
 @media (max-width: 640) {}
