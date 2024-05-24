@@ -1,7 +1,15 @@
 /* metodología BEM */
 body {
+   margin: 0;
+   padding: 0;
    background-color: var(--background-color);
+}
+
+body {
    background-image: url(assets/bg-desktop.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
    overflow: hidden;
 }
 
@@ -99,4 +107,12 @@ body {
    color: #000;
 }
 
-@media (max-width: 640) {}
+@media (max-width: 970px) {
+   body {
+      background-image: url(assets/bg-mobile.svg);
+      background-repeat: no-repeat;
+      overflow-x: hidden;
+      background-size: cover;
+      background-position: top center;
+   }
+}
